@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Marco Túlio Ribeiro Advocacia</title>
+<meta name="description" content="Advocacia estratégica e ética para pessoas físicas e empresas. Atendimento personalizado em Direito Civil, Família, Consumidor, Trabalhista, Empresarial e Imobiliário. OAB nº 239.908.">
+<link rel="icon" href="logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== Top bar ===== -->
+<div class="topbar">
+  <div class="container">
+    <div class="topbar-info">
+      <span>
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        Atendimento em todo o Brasil
+      </span>
+      <span>
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+        Seg – Sex: 9h às 18h
+      </span>
+    </div>
+    <div class="topbar-right">
+      <div class="social-links">
+        <a href="https://wa.me/5500000000000" target="_blank" rel="noopener" aria-label="WhatsApp">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M20.5 3.5a11 11 0 0 0-17.4 13.2L2 22l5.5-1.4A11 11 0 0 0 20.5 3.5Z"/></svg>
+        </a>
+        <a href="https://instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+        </a>
+        <a href="https://linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M7 10v7M7 7v.01M12 17v-4a2 2 0 0 1 4 0v4M12 13v4"/></svg>
+        </a>
+      </div>
+      <a href="#contato" class="btn btn-gold btn-sm">Agende uma Consulta</a>
+    </div>
+  </div>
+</div>
+
+<!-- ===== Navbar ===== -->
+<header class="navbar" id="navbar">
+  <div class="container">
+    <a href="#inicio" class="brand">
+      <svg class="brand-mark" viewBox="0 0 100 120" fill="currentColor"><rect x="6" y="6" width="88" height="10"/><rect x="45" y="6" width="10" height="108"/><rect x="14" y="14" width="10" height="100"/><rect x="76" y="14" width="10" height="100"/><polygon points="24,14 34,14 54,66 44,66"/><polygon points="76,14 66,14 46,66 56,66"/></svg>
+      <span class="brand-text">
+        <span class="name">Marco Túlio Ribeiro</span>
+        <span class="sub">ADVOCACIA</span>
+      </span>
+    </a>
+
+    <nav class="nav-links">
+      <a href="#inicio" class="active">Início</a>
+      <a href="#escritorio">Escritório</a>
+      <a href="#areas">Áreas de Atuação</a>
+      <a href="#contato">Contato</a>
+    </nav>
+
+    <div class="nav-actions">
+      <a class="nav-phone" href="mailto:marco.adv.tulio@gmail.com">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z" opacity="0"/><path d="M3 7l9 6 9-6M4 5h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Z"/></svg>
+        <span>
+          <span class="lbl">Fale conosco</span>
+          <span class="val">marco.adv.tulio@gmail.com</span>
+        </span>
+      </a>
+      <a href="#contato" class="btn btn-gold btn-sm">Agende uma Consulta</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ===== Mobile menu ===== -->
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-menu-top">
+    <span class="brand-text">
+      <span class="name" style="color:var(--cream)">Marco Túlio Ribeiro</span>
+      <span class="sub">ADVOCACIA</span>
+    </span>
+    <button class="nav-toggle" id="navClose" aria-label="Fechar menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+  <a href="#inicio">Início</a>
+  <a href="#escritorio">Escritório</a>
+  <a href="#areas">Áreas de Atuação</a>
+  <a href="#contato">Contato</a>
+  <a href="#contato" class="btn btn-gold">Agende uma Consulta</a>
+</div>
+
+<main>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero" id="inicio">
+    <div class="container">
+      <div class="hero-copy reveal">
+        <span class="kicker">Excelência jurídica, atendimento próximo</span>
+        <h1>Advocacia estratégica para <em>proteger o que importa</em> para você.</h1>
+        <p class="lede">Atuação ética, técnica e transparente — do primeiro contato até a solução do seu caso, com atendimento presencial e online em todo o Brasil.</p>
+        <div class="hero-actions">
+          <a href="#contato" class="btn btn-gold">Agende uma Consulta</a>
+          <a href="#areas" class="btn btn-ghost-dark">Áreas de Atuação</a>
+        </div>
+        <span class="hero-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 3 6v6c0 5 4 8.5 9 10 5-1.5 9-5 9-10V6l-9-4Z"/></svg>
+          Dr. Marco Túlio Ribeiro — <strong>OAB nº 239.908</strong>
+        </span>
+      </div>
+
+      <div class="hero-photo-wrap">
+        <div class="hero-photo-glow"></div>
+        <div class="hero-photo-frame">
+          <img src="hero.jpg" srcset="hero.jpg 1600w, hero@2x.jpg 2000w" sizes="(max-width: 980px) 100vw, 46vw" alt="Dr. Marco Túlio Ribeiro, advogado" width="1600" height="2000">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Stats / diferenciais rápidos ===== -->
+  <div class="stats">
+    <div class="container">
+      <div class="stat reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 3 6v6c0 5 4 8.5 9 10 5-1.5 9-5 9-10V6l-9-4Z"/></svg>
+        <div class="t">Ética &amp; sigilo</div>
+        <div class="d">Em cada etapa do processo</div>
+      </div>
+      <div class="stat reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4.5 5-7 8-7s6.5 2.5 8 7"/></svg>
+        <div class="t">Atendimento direto</div>
+        <div class="d">Você fala com o advogado</div>
+      </div>
+      <div class="stat reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-6.2-8.56"/><path d="M21 4 12 13l-3-3"/></svg>
+        <div class="t">Comunicação clara</div>
+        <div class="d">Sem "juridiquês"</div>
+      </div>
+      <div class="stat reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l3 8 4-16 3 8h4"/></svg>
+        <div class="t">Atuação nacional</div>
+        <div class="d">Processos eletrônicos</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== Áreas de atuação ===== -->
+  <section class="areas" id="areas">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="kicker" style="justify-content:center">Áreas de atuação</span>
+        <h2>Soluções jurídicas completas para diferentes demandas</h2>
+        <p>Atuação generalista e próxima ao cliente, com atenção dedicada a cada caso — das questões do dia a dia às decisões mais estratégicas.</p>
+      </div>
+
+      <div class="areas-grid">
+        <div class="area-card reveal">
+          <div class="area-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19h16M6 19V9l6-4 6 4v10M9 19v-6h6v6"/></svg>
+          </div>
+          <h3>Direito Civil</h3>
+          <p>Contratos, indenizações, responsabilidade civil e questões do dia a dia.</p>
+        </div>
+
+        <div class="area-card reveal">
+          <div class="area-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"/><path d="M4 21c1-4 4-6 8-6s7 2 8 6"/></svg>
+          </div>
+          <h3>Direito de Família e Sucessões</h3>
+          <p>Divórcio, guarda, pensão alimentícia, inventário e planejamento sucessório.</p>
+        </div>
+
+        <div class="area-card reveal">
+          <div class="area-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18M3 6l2 13a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2l2-13M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>
+          </div>
+          <h3>Direito do Consumidor</h3>
+          <p>Defesa em relações de consumo, cobranças indevidas e produtos ou serviços com defeito.</p>
+        </div>
+
+        <div class="area-card reveal">
+          <div class="area-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V10l7-6 7 6v11M9 21v-6h6v6"/></svg>
+          </div>
+          <h3>Direito Trabalhista</h3>
+          <p>Orientação e defesa de direitos trabalhistas para empregados e empregadores.</p>
+        </div>
+
+        <div class="area-card reveal">
+          <div class="area-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="14" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 12h18"/></svg>
+          </div>
+          <h3>Direito Empresarial</h3>
+          <p>Assessoria societária, contratos empresariais e prevenção de conflitos.</p>
+        </div>
+
+        <div class="area-card reveal">
+          <div class="area-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10 12 3l9 7"/><path d="M5 9v11h14V9"/><path d="M10 20v-6h4v6"/></svg>
+          </div>
+          <h3>Direito Imobiliário</h3>
+          <p>Compra, venda, locação e regularização de imóveis.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Sobre / Escritório ===== -->
+  <section class="about" id="escritorio">
+    <div class="container">
+      <div class="about-photo reveal">
+        <img src="sobre.jpg" alt="Dr. Marco Túlio Ribeiro" loading="lazy" width="879" height="1100">
+        <span class="about-photo-tag">OAB nº 239.908</span>
+      </div>
+
+      <div class="about-text reveal">
+        <span class="kicker">O escritório</span>
+        <h2>Dr. Marco Túlio Ribeiro</h2>
+        <p>Advocacia conduzida com ética, técnica e proximidade. O atendimento é feito diretamente pelo advogado, do primeiro contato ao encerramento do caso — com explicações claras, sem "juridiquês", para que o cliente entenda cada etapa do processo.</p>
+        <p>Atuação generalista, dedicada a compreender o contexto de cada cliente antes de apontar o melhor caminho jurídico, seja em uma questão pessoal ou em uma demanda empresarial.</p>
+        <ul class="about-list">
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+            Atendimento direto com o advogado, sem intermediários
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+            Sigilo e ética em cada etapa do processo
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+            Comunicação clara, sem "juridiquês"
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+            Atendimento presencial e online, em todo o Brasil
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA band ===== -->
+  <div class="cta-band">
+    <div class="container">
+      <div class="reveal">
+        <h2>Precisa de orientação jurídica?</h2>
+        <p>Agende uma consulta inicial e entenda os próximos passos do seu caso.</p>
+      </div>
+      <a href="#contato" class="btn btn-gold reveal">Agende uma Consulta</a>
+    </div>
+  </div>
+
+  <!-- ===== Contato ===== -->
+  <section class="contact" id="contato">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="kicker" style="justify-content:center">Contato</span>
+        <h2>Vamos conversar sobre o seu caso?</h2>
+        <p>Entre em contato pelo canal de sua preferência e agende uma consulta inicial.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-card reveal">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.5 3.5a11 11 0 0 0-17.4 13.2L2 22l5.5-1.4A11 11 0 0 0 20.5 3.5Z"/></svg>
+          </div>
+          <h3>WhatsApp</h3>
+          <p>Resposta rápida, direto com o advogado</p>
+          <a class="value" href="https://wa.me/5500000000000" target="_blank" rel="noopener">Enviar mensagem</a>
+        </div>
+
+        <div class="contact-card reveal">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7l9 6 9-6M4 5h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Z"/></svg>
+          </div>
+          <h3>E-mail</h3>
+          <p>Para consultas e envio de documentos</p>
+          <a class="value" href="mailto:marco.adv.tulio@gmail.com">marco.adv.tulio@gmail.com</a>
+        </div>
+
+        <div class="contact-card reveal">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <h3>Área de atendimento</h3>
+          <p>Atendimento presencial mediante agendamento</p>
+          <span class="value">Todo o Brasil (online)</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== Footer ===== -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#inicio" class="brand">
+          <svg class="brand-mark" viewBox="0 0 100 120" fill="currentColor" style="color:var(--gold-500)"><rect x="6" y="6" width="88" height="10"/><rect x="45" y="6" width="10" height="108"/><rect x="14" y="14" width="10" height="100"/><rect x="76" y="14" width="10" height="100"/><polygon points="24,14 34,14 54,66 44,66"/><polygon points="76,14 66,14 46,66 56,66"/></svg>
+          <span class="brand-text">
+            <span class="name">Marco Túlio Ribeiro</span>
+            <span class="sub">ADVOCACIA</span>
+          </span>
+        </a>
+        <p>Advocacia estratégica, ética e próxima — para pessoas físicas e empresas, em todo o Brasil.</p>
+        <div class="social-links">
+          <a href="https://wa.me/5500000000000" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M20.5 3.5a11 11 0 0 0-17.4 13.2L2 22l5.5-1.4A11 11 0 0 0 20.5 3.5Z"/></svg>
+          </a>
+          <a href="https://instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+          </a>
+          <a href="https://linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M7 10v7M7 7v.01M12 17v-4a2 2 0 0 1 4 0v4M12 13v4"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <h4>Navegação</h4>
+        <div class="flinks">
+          <a href="#inicio">Início</a>
+          <a href="#escritorio">Escritório</a>
+          <a href="#areas">Áreas de Atuação</a>
+          <a href="#contato">Contato</a>
+        </div>
+      </div>
+
+      <div>
+        <h4>Contato</h4>
+        <div class="flinks">
+          <a href="mailto:marco.adv.tulio@gmail.com">marco.adv.tulio@gmail.com</a>
+          <a href="https://wa.me/5500000000000" target="_blank" rel="noopener">WhatsApp</a>
+          <span>OAB nº 239.908</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span id="year">© 2026 Marco Túlio Ribeiro Advocacia. Todos os direitos reservados.</span>
+      <span class="disclaimer">O conteúdo deste site tem caráter informativo e não substitui uma consulta jurídica.</span>
+    </div>
+  </div>
+</footer>
+
+<a class="wa-fab" href="https://wa.me/5500000000000" target="_blank" rel="noopener" aria-label="Conversar no WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.5 0-10 4.5-10 10 0 1.77.46 3.45 1.27 4.9L2 22l5.25-1.28A9.95 9.95 0 0 0 12.04 22c5.5 0 10-4.5 10-10s-4.5-10-10-10Zm0 18.2c-1.6 0-3.1-.42-4.4-1.2l-.32-.19-3.12.76.8-3.04-.2-.32A8.18 8.18 0 0 1 3.8 12c0-4.55 3.7-8.24 8.24-8.24 4.55 0 8.24 3.7 8.24 8.24 0 4.55-3.7 8.2-8.24 8.2Zm4.5-6.1c-.25-.12-1.45-.72-1.68-.8-.22-.08-.39-.12-.55.12-.16.25-.63.8-.78.96-.14.16-.28.18-.53.06-.25-.12-1.06-.39-2.02-1.24-.75-.66-1.25-1.48-1.4-1.73-.14-.25-.02-.38.11-.5.11-.11.25-.28.37-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.55-1.34-.76-1.83-.2-.48-.4-.42-.55-.42-.14 0-.3-.02-.46-.02-.16 0-.42.06-.64.3-.22.25-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.7 2.6 4.13 3.64.58.25 1.03.4 1.38.51.58.18 1.1.16 1.52.1.46-.07 1.45-.59 1.65-1.16.2-.57.2-1.06.14-1.16-.06-.1-.22-.16-.47-.28Z"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
