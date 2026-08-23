@@ -8,7 +8,7 @@
 <link rel="icon" href="logo.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -99,6 +99,7 @@
 
   <!-- ===== Hero ===== -->
   <section class="hero" id="inicio">
+    <div class="texture" aria-hidden="true"></div>
     <div class="container">
       <div class="hero-copy reveal">
         <span class="kicker">Excelência jurídica, atendimento próximo</span>
@@ -127,22 +128,22 @@
   <div class="stats">
     <div class="container">
       <div class="stat reveal">
-        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 3 6v6c0 5 4 8.5 9 10 5-1.5 9-5 9-10V6l-9-4Z"/></svg>
+        <div class="stat-icon-ring"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 3 6v6c0 5 4 8.5 9 10 5-1.5 9-5 9-10V6l-9-4Z"/></svg></div>
         <div class="t">Ética &amp; sigilo</div>
         <div class="d">Em cada etapa do processo</div>
       </div>
       <div class="stat reveal">
-        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4.5 5-7 8-7s6.5 2.5 8 7"/></svg>
+        <div class="stat-icon-ring"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4.5 5-7 8-7s6.5 2.5 8 7"/></svg></div>
         <div class="t">Atendimento direto</div>
         <div class="d">Você fala com o advogado</div>
       </div>
       <div class="stat reveal">
-        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-6.2-8.56"/><path d="M21 4 12 13l-3-3"/></svg>
+        <div class="stat-icon-ring"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-6.2-8.56"/><path d="M21 4 12 13l-3-3"/></svg></div>
         <div class="t">Comunicação clara</div>
         <div class="d">Sem "juridiquês"</div>
       </div>
       <div class="stat reveal">
-        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l3 8 4-16 3 8h4"/></svg>
+        <div class="stat-icon-ring"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l3 8 4-16 3 8h4"/></svg></div>
         <div class="t">Atuação nacional</div>
         <div class="d">Processos eletrônicos</div>
       </div>
@@ -158,53 +159,59 @@
         <p>Atuação generalista e próxima ao cliente, com atenção dedicada a cada caso — das questões do dia a dia às decisões mais estratégicas.</p>
       </div>
 
-      <div class="areas-grid">
-        <div class="area-card reveal">
-          <div class="area-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19h16M6 19V9l6-4 6 4v10M9 19v-6h6v6"/></svg>
+      <div class="areas-list">
+        <div class="area-row reveal">
+          <span class="area-num">01</span>
+          <div class="area-row-body">
+            <h3>Direito Civil</h3>
+            <p>Contratos, indenizações, responsabilidade civil e questões do dia a dia.</p>
           </div>
-          <h3>Direito Civil</h3>
-          <p>Contratos, indenizações, responsabilidade civil e questões do dia a dia.</p>
+          <svg class="area-arrow" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
         </div>
 
-        <div class="area-card reveal">
-          <div class="area-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"/><path d="M4 21c1-4 4-6 8-6s7 2 8 6"/></svg>
+        <div class="area-row reveal">
+          <span class="area-num">02</span>
+          <div class="area-row-body">
+            <h3>Direito de Família e Sucessões</h3>
+            <p>Divórcio, guarda, pensão alimentícia, inventário e planejamento sucessório.</p>
           </div>
-          <h3>Direito de Família e Sucessões</h3>
-          <p>Divórcio, guarda, pensão alimentícia, inventário e planejamento sucessório.</p>
+          <svg class="area-arrow" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
         </div>
 
-        <div class="area-card reveal">
-          <div class="area-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18M3 6l2 13a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2l2-13M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>
+        <div class="area-row reveal">
+          <span class="area-num">03</span>
+          <div class="area-row-body">
+            <h3>Direito do Consumidor</h3>
+            <p>Defesa em relações de consumo, cobranças indevidas e produtos ou serviços com defeito.</p>
           </div>
-          <h3>Direito do Consumidor</h3>
-          <p>Defesa em relações de consumo, cobranças indevidas e produtos ou serviços com defeito.</p>
+          <svg class="area-arrow" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
         </div>
 
-        <div class="area-card reveal">
-          <div class="area-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V10l7-6 7 6v11M9 21v-6h6v6"/></svg>
+        <div class="area-row reveal">
+          <span class="area-num">04</span>
+          <div class="area-row-body">
+            <h3>Direito Trabalhista</h3>
+            <p>Orientação e defesa de direitos trabalhistas para empregados e empregadores.</p>
           </div>
-          <h3>Direito Trabalhista</h3>
-          <p>Orientação e defesa de direitos trabalhistas para empregados e empregadores.</p>
+          <svg class="area-arrow" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
         </div>
 
-        <div class="area-card reveal">
-          <div class="area-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="14" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 12h18"/></svg>
+        <div class="area-row reveal">
+          <span class="area-num">05</span>
+          <div class="area-row-body">
+            <h3>Direito Empresarial</h3>
+            <p>Assessoria societária, contratos empresariais e prevenção de conflitos.</p>
           </div>
-          <h3>Direito Empresarial</h3>
-          <p>Assessoria societária, contratos empresariais e prevenção de conflitos.</p>
+          <svg class="area-arrow" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
         </div>
 
-        <div class="area-card reveal">
-          <div class="area-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10 12 3l9 7"/><path d="M5 9v11h14V9"/><path d="M10 20v-6h4v6"/></svg>
+        <div class="area-row reveal">
+          <span class="area-num">06</span>
+          <div class="area-row-body">
+            <h3>Direito Imobiliário</h3>
+            <p>Compra, venda, locação e regularização de imóveis.</p>
           </div>
-          <h3>Direito Imobiliário</h3>
-          <p>Compra, venda, locação e regularização de imóveis.</p>
+          <svg class="area-arrow" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
         </div>
       </div>
     </div>
@@ -212,6 +219,7 @@
 
   <!-- ===== Sobre / Escritório ===== -->
   <section class="about" id="escritorio">
+    <div class="texture" aria-hidden="true"></div>
     <div class="container">
       <div class="about-photo reveal">
         <img src="sobre.jpg" alt="Dr. Marco Túlio Ribeiro" loading="lazy" width="879" height="1100">
